@@ -7,14 +7,20 @@
 # You can add other services your application may depend on here, such as a
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
+version: "3.8"
+
 services:
-  server:
-    build:
-      context: .
-    environment:
-      NODE_ENV: production
-    ports:
-      - 9000:9000
+    server:
+        build:
+            context: .
+        environment:
+            NODE_ENV: development # Modificato da production a development per Vite
+        ports:
+            - 5173:5173 # Modificato da 9000:9000 a 5173:5173 (default di Vite)
+        volumes:
+            - .:/app # Aggiunto per riflettere le modifiche al codice
+            - /app/node_modules # Aggiunto per gestire node_modules
+        command: npm run dev # Aggiunto per avviare Vite
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
@@ -48,4 +54,3 @@ services:
 # secrets:
 #   db-password:
 #     file: db/password.txt
-
