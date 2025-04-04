@@ -1,13 +1,14 @@
 // import MMN_logo from "../assets/MNM_logo.svg";
-import react from "../assets/react.svg";
-import FB_logo from "../assets/FB_logo.svg";
-import { Link } from "react-router-dom";
+//import react from "../assets/react.svg";
+//import FB_logo from "../assets/FB_logo.svg";
+//import { Link } from "react-router-dom";
 
+/*
 const NavBar = () => {
     return (
         <nav className="bg-gradient-to-r from-blue-700 to-purple-800 text-white p-4 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
-                {/* Logo e nome dell'associazione */}
+
                 <div className="flex items-center gap-3">
                     <Link
                         to="/"
@@ -24,7 +25,6 @@ const NavBar = () => {
                     </Link>
                 </div>
 
-                {/* Menu di navigazione centrale */}
                 <div className="hidden md:flex space-x-6">
                     <Link
                         to="/chi-siamo"
@@ -52,7 +52,6 @@ const NavBar = () => {
                     </Link>
                 </div>
 
-                {/* Social media e dona ora */}
                 <div className="flex items-center gap-4">
                     <a
                         href="https://www.facebook.com/ManonellaManoAssociazione/?locale=it_IT"
@@ -81,3 +80,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+*/

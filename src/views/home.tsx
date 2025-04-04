@@ -1,11 +1,9 @@
-import Footer from "../components/footer";
-import NavBar from "../components/navbar";
+import Footer from "../components/footer.tsx";
+//import NavBar from "../components/navbar.tsx";
 
 const Home = () => {
     return (
         <div className="flex flex-col min-h-screen">
-            <NavBar />
-
             <main className="flex-grow">
                 {/* Hero Section */}
                 <section className="bg-blue-600 text-white py-20 px-4">
@@ -89,6 +87,7 @@ const Home = () => {
                             importante!
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
+                            <p>Sii il cambiamento che vuoi vedere nel mondo</p>
                             <button className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-8 rounded-full text-lg transition-colors">
                                 Dona ora
                             </button>
