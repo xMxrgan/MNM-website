@@ -1,9 +1,10 @@
 import Footer from "../components/footer.tsx";
-//import NavBar from "../components/navbar.tsx";
+import NavBar from "../components/navbar.tsx";
 
 const Home = () => {
     return (
         <div className="flex flex-col min-h-screen">
+            <NavBar />
             <main className="flex-grow">
                 {/* Hero Section */}
                 <section className="bg-blue-600 text-white py-20 px-4">

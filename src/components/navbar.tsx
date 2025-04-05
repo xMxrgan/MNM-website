@@ -81,3 +81,19 @@ const NavBar = () => {
 
 export default NavBar;
 */
+
+// import mnmLogo from "../assets/MNM_logo.svg";
+// import fbLogo from "../assets/FB_logo.svg";
+import { Link } from "react-router-dom";
+
+const NavBar = () => {
+    return (
+        <nav className="bg-emerald-600 text-white shadow-md p-4">
+            <Link to="/">Lorem</Link>
+            <Link to="/daily-center">Ipsum</Link>
+            <Link to="/">allora</Link>
+        </nav>
+    );
+};
+
+export default NavBar;
