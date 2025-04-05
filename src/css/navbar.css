@@ -1,0 +1,106 @@
+/* Reset globale: rimuovi margini e padding di default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Imposta un colore di sfondo chiaro per il body */
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+    height: 100%;
+}
+
+/* Navbar fissa in alto */
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Spazio tra sinistra e destra */
+    align-items: center;
+}
+
+/* Parte sinistra della navbar */
+.leftNav {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Maggiore spazio tra logo e link */
+}
+
+/* Icona del logo */
+.navIcon {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+.navIcon:hover {
+    transform: scale(1.1); /* Zoom al passaggio del mouse */
+}
+
+/* Link della navbar */
+.navLink {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Sottolineatura animata sui link */
+.navLink::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0%;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+.navLink:hover {
+    color: #3498db; /* Colore blu al passaggio del mouse */
+}
+.navLink:hover::after {
+    width: 100%; /* La sottolineatura si espande */
+}
+
+/* Parte destra della navbar */
+.rightNav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Icona social (Facebook) */
+.navSocial {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    /* Allinea i gruppi di sinistra e destra verticalmente su mobile */
+    .leftNav,
+    .rightNav {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    /* Spazio maggiore tra gli elementi su mobile */
+    .navLink {
+        font-size: 1.1rem;
+    }
+}
