@@ -9,7 +9,6 @@ const NavBar = () => {
         <nav className="navbar">
             {/*Parte sinistra della navbar */}
             <div className="leftNav">
-                {" "}
                 <Link to="/" className="navIcon">
                     <img src={react} className="navIcon" alt="Logo MNM" />
                 </Link>

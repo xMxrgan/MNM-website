@@ -5,13 +5,13 @@ const Info = () => {
     return (
         <div className="info-container">
             {/* Banner */}
-            <Link to="/"></Link>
+            <Link to="/" className="HomeButton">
+                Home
+            </Link>
             <section className="chi-siamo-banner">
                 <div className="banner-content">
                     <h1>Chi Siamo</h1>
-                    <p className="subtitle">
-                        Mano nella Mano: insieme dal 2010
-                    </p>
+                    <p className="subtitle">Mano nella Mano</p>
                     <p className="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nullam in dui mauris. Vivamus hendrerit arcu sed erat
@@ -97,7 +97,7 @@ const Info = () => {
                     </div>
                 </div>
 
-                {/* Google Maps */}
+                {/*Google Maps */}
                 <div className="right-column">
                     <div className="dove-siamo-container">
                         <h2>Dove Trovarci</h2>
