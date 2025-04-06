@@ -13,20 +13,24 @@ const NavBar = () => {
                 <Link to="/" className="navIcon">
                     <img src={react} className="navIcon" alt="Logo MNM" />
                 </Link>
-                <Link to="/daily-center" className="navLink">
+                <Link to="/daily-center" className="DCbutton">
                     Centro Diurno
                 </Link>
             </div>
 
             <div className="rightNav">
                 {" "}
-                <div className="navLink">
+                <div className="navLinkBlock">
                     <Link to="/" className="navLink">
                         Home
                     </Link>
 
                     <Link to="/info" className="navLink">
                         Info
+                    </Link>
+
+                    <Link to="/contacts" className="navLink">
+                        Contattaci
                     </Link>
                 </div>
                 <a
