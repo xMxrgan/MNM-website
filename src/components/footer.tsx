@@ -8,7 +8,7 @@ const Footer = () => {
                 Copyright © 2025 Associazione Mano nella Mano O.D.V.
             </div>
             <span className="footerContainer">
-                <Link to="/privacy-policy">Privacy Policy</Link>
+                <Link to="/privacy-policy">Termini e condizioni</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>

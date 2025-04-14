@@ -12,31 +12,30 @@ const NavBar = () => {
                 <Link to="/" className="navIcon">
                     <img src={react} className="navIcon" alt="Logo MNM" />
                 </Link>
-                <Link to="/daily-center" className="DCbutton">
+                <Link to="/Centro-Diurno" className="DCbutton">
                     Centro Diurno
                 </Link>
             </div>
 
             <div className="rightNav">
-                {" "}
                 <div className="navLinkBlock">
                     <Link to="/" className="navLink">
                         Home
                     </Link>
-                    <Link to="/attivita" className="navLink">
+                    <Link to="/Attività" className="navLink">
                         Attività
                     </Link>
 
-                    <Link to="/corsi" className="navLink">
+                    <Link to="/Corsi" className="navLink">
                         Corsi
                     </Link>
 
-                    <Link to="/blog" className="navLink">
+                    <Link to="/Eventi" className="navLink">
                         Eventi
                     </Link>
 
-                    <Link to="/info" className="navLink">
-                        Info & contatti
+                    <Link to="/Info" className="navLink">
+                        Info
                     </Link>
                 </div>
                 <a

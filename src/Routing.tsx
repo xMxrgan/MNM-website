@@ -14,14 +14,16 @@ function Routing() {
     return (
         <BrowserRouter>
             <NavBar />
+
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/attivita" element={<Attività />} />
-                <Route path="/daily-center" element={<DailyCenter />} />
-                <Route path="/corsi" element={<Corsi />} />
-                <Route path="info" element={<Info />} />
-                <Route path="/blog" element={<Eventi />} />
+                <Route path="/Attività" element={<Attività />} />
+                <Route path="/Centro-Diurno" element={<DailyCenter />} />
+                <Route path="/Corsi" element={<Corsi />} />
+                <Route path="/Info" element={<Info />} />
+                <Route path="/Eventi" element={<Eventi />} />
             </Routes>
+
             <Footer />
         </BrowserRouter>
     );

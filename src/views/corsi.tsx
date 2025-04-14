@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
 import "../Style.css";
+import TodaysDate from "../components/todaysDate";
 
 const Corsi = () => {
     return (
-        <div>
-            <Link to="/" className="HomeButton">
-                Home
-            </Link>
-            <h1>Corsi</h1>
-        </div>
+        <>
+            <TodaysDate />
+            <div>
+                <h1>Corsi</h1>
+            </div>
+        </>
     );
 };
 
