@@ -5,10 +5,12 @@ const ActivityCard = ({
     imageSrc,
     title,
     description,
+    dateAndTime,
 }: {
     imageSrc: string;
     title: string;
     description: string;
+    dateAndTime: string;
 }) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const cardRef = useRef<HTMLFormElement>(null);

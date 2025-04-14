@@ -3,6 +3,7 @@ import TodaysDate from "../components/todaysDate";
 import "../Style.css";
 
 import ProvaImmagine from "../assets/react.svg";
+import PetTherapy from "../assets/IMG_3614.png";
 
 const Activities = () => {
     return (
@@ -11,8 +12,8 @@ const Activities = () => {
             <div className="activities-container">
                 <div className="leftColumnActivities">
                     <ActivityCard
-                        imageSrc={ProvaImmagine}
-                        title="Esempio di prova"
+                        imageSrc={PetTherapy}
+                        title="Pet Therapy"
                         description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
                     />
                     <ActivityCard
