@@ -1,0 +1,83 @@
+/* Container principale della card */
+.activity-card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    max-height: 250px;
+    transition:
+        max-height 0.6s ease,
+        box-shadow 0.3s ease,
+        transform 0.4s ease;
+    transform-origin: top;
+}
+
+/* Immagine */
+.activity-card-img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+/* Contenuto base */
+.activity-card-content {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-out;
+}
+
+/* Titolo */
+.activity-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Icona di espansione (freccia) */
+.activity-card-icon {
+    transition: transform 0.5s ease;
+}
+
+/* Ruota la freccia se espansa */
+.activity-card.expanded .activity-card-icon {
+    transform: rotate(180deg);
+}
+
+/* Contenuto espanso */
+.activity-card-description {
+    padding: 0 1rem 1rem;
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        opacity 0.5s ease,
+        max-height 0.5s ease;
+}
+
+/* Stile quando la card è espansa */
+.activity-card.expanded {
+    max-height: 500px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+.activity-card.expanded .activity-card-description {
+    opacity: 1;
+    max-height: 300px; /* o quanto necessario per il contenuto */
+}
+
+/* Container delle cards */
+.activity-cards-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}

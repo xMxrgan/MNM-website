@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 @import url("./css/navbar.css");
 @import url("./css/info.css");
+@import url("./css/activityCard.css");
+@import url("./css/footer.css");
+@import url("./css/eventi.css");
 
 body {
-    font-family: "Poppins", sans-serif; /* Usa il font Roboto */
+    font-family: "Poppins", sans-serif; /* Usa il font Poppins */
     background-color: #f8f9fa; /* Colore di sfondo della pagina */
     color: #333; /* Colore del testo principale */
 }
@@ -53,4 +55,31 @@ body {
 
 .read-the-docs {
     color: #888;
+}
+
+.copyButton {
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        var(--mnm-green) 0%,
+        var(--mnm-green-dark) 100%
+    );
+    color: white;
+    font-size: 13px;
+    margin-top: 13px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.copyButton:hover {
+    color: white;
+    transform: scale(1.05);
 }
