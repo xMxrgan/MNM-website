@@ -13,17 +13,17 @@ const Activities = () => {
                     <ActivityCard
                         imageSrc={ProvaImmagine}
                         title="Esempio di prova"
-                        description="Lorem ipsum dolor sit amet,"
+                        description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
                     />
                     <ActivityCard
                         imageSrc={ProvaImmagine}
                         title="Esempio di prova"
-                        description="Lorem ipsum dolor sit amet,"
+                        description="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet,"
                     />
                     <ActivityCard
                         imageSrc={ProvaImmagine}
                         title="Esempio di prova"
-                        description="Lorem ipsum dolor sit amet,
+                        description="Lorem ipsum dolor sit amet, bibendum non venenatis nisl tempor. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ame
                 bibendum non venenatis nisl tempor."
                     />
                 </div>
@@ -43,7 +43,7 @@ const Activities = () => {
                         imageSrc={ProvaImmagine}
                         title="Esempio di prova"
                         description="Lorem ipsum dolor sit amet,
-                bibendum non venenatis nisl tempor."
+                bibendum non venenatis nisl tempor. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
                     />
                 </div>
             </div>

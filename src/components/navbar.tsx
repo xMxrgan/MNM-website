@@ -35,7 +35,7 @@ const NavBar = () => {
                     </Link>
 
                     <Link to="/Info" className="navLink">
-                        Info
+                        Info & contatti
                     </Link>
                 </div>
                 <a

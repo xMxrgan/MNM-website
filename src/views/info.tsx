@@ -161,9 +161,7 @@ const Info = () => {
                 </section>
             </div>
 
-            <section className="legal-info">
-                <h2>Sede legale</h2>
-            </section>
+            <section className="legal-info"></section>
 
             <section> Sponsor section</section>
         </>
