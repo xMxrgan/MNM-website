@@ -44,6 +44,7 @@ const ActivityCard = ({
             <img src={imageSrc} alt={title} className="activity-card-img" />
             <div className="activity-card-content">
                 <h2 className="activity-card-title">{title}</h2>
+                <h3 className="activity-card-time">{dateAndTime}</h3>
                 <span className="activity-card-icon">⬇️</span>
             </div>
             <div
@@ -51,10 +52,7 @@ const ActivityCard = ({
                     isExpanded ? "visible" : ""
                 }`}
             >
-                <p>
-                    {description ||
-                        "Testo espanso. Puoi inserire qui ulteriori informazioni sulla carta."}
-                </p>
+                <p>{description}</p>
             </div>
         </form>
     );
