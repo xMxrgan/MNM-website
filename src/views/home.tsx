@@ -1,5 +1,12 @@
+import NavBar from "../components/MNMnavbar";
+
 const Home = () => {
-    return <></>;
+
+    return <>
+        <div>
+            <NavBar />
+        </div>
+    </>;
 };
 
 export default Home;

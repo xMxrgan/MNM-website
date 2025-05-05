@@ -7,26 +7,26 @@ import Info from "./views/info";
 import Attività from "./views/activities";
 import Eventi from "./views/eventi";
 import Corsi from "./views/corsi";
-import NavBar from "./components/navbar";
+
 import Footer from "./components/footer";
 
 function Routing() {
-    return (
-        <BrowserRouter>
-            <NavBar />
+  return (
+    <BrowserRouter>
 
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Attività" element={<Attività />} />
-                <Route path="/Centro-Diurno" element={<DailyCenter />} />
-                <Route path="/Corsi" element={<Corsi />} />
-                <Route path="/Info" element={<Info />} />
-                <Route path="/Eventi" element={<Eventi />} />
-            </Routes>
 
-            <Footer />
-        </BrowserRouter>
-    );
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Attività" element={<Attività />} />
+        <Route path="/Centro-Diurno" element={<DailyCenter />} />
+        <Route path="/Corsi" element={<Corsi />} />
+        <Route path="/Info" element={<Info />} />
+        <Route path="/Eventi" element={<Eventi />} />
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
 export default Routing;
