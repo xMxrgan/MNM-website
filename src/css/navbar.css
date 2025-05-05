@@ -67,11 +67,11 @@ body {
     bottom: -4px;
     height: 2px;
     width: 0%;
-    background-color: #3498db;
+    background-color: #c0d856;
     transition: width 0.3s ease;
 }
 .navLink:hover {
-    color: #3498db; /* Colore blu al passaggio del mouse */
+    color: #a3bf44; /* Colore verde al passaggio del mouse */
 }
 .navLink:hover::after {
     width: 100%; /* La sottolineatura si espande */

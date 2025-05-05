@@ -43,13 +43,17 @@ const ActivityCard = ({
       <img src={imageSrc} alt={title} className="activity-card-img" />
       <div className="activity-card-content">
         <h2 className="activity-card-title">{title}</h2>
-        <h3 className="activity-card-time">{dateAndTimeConcamarise}</h3>
-        <h3 className="activity-card-time">{dateAndTimeBovolone}</h3>
         <span className="activity-card-icon">⬇️</span>
       </div>
       <div
         className={`activity-card-description ${isExpanded ? "visible" : ""}`}
       >
+        <div className="activity-card-time-box">
+          {" "}
+          <h3 className="activity-card-time">{dateAndTimeConcamarise}</h3>
+          <h3 className="activity-card-time">{dateAndTimeBovolone}</h3>
+        </div>
+
         <p>{description}</p>
       </div>
     </form>

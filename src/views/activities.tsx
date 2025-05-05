@@ -13,23 +13,22 @@ const Activities = () => {
         <div className="leftColumnActivities">
           <ActivityCard
             imageSrc={PetTherapy}
-            title="Pet Therapy"
-            dateAndTimeConcamarise="Sempre"
-            dateAndTimeBovolone="Sempre"
-            description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+            title="Pet Therapy "
+            dateAndTimeConcamarise="🔄 CICLICA "
+            description="La pet therapy, o interventi assistiti con gli animali (IAA), è un'attività che proponiamo per migliorare la qualità della vita di persone con Alzheimer o decadimento cognitivo, grazie alla presenza di animali addestrati e professionisti qualificati."
           />
 
           <ActivityCard
             imageSrc={PetTherapy}
-            title="Pet Therapy"
-            dateAndTimeConcamarise="Concamarise giovedì 9:30/11:30"
-            dateAndTimeBovolone="Bovolone 9:30/11:30"
-            description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+            title="Musicoterapia "
+            dateAndTimeConcamarise="🕤 CONCAMARISE — 9:30 / 11:30"
+            dateAndTimeBovolone="🕤 BOVOLONE — 9:30 / 11:30"
+            description="La musicoterapia è un'attività che utilizziamo per stimolare emozioni, ricordi e comunicazione nelle persone con Alzheimer, attraverso l’ascolto, il canto e l’uso di strumenti musicali, guidati da terapisti specializzati."
           />
 
           <ActivityCard
             imageSrc={PetTherapy}
-            title="Pet Therapy"
+            title="Ginnastica dolce "
             dateAndTimeConcamarise="Sempre"
             dateAndTimeBovolone="Sempre"
             description="Lorem ipsum dolor sit amet, \nLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
@@ -39,17 +38,17 @@ const Activities = () => {
         <div className="rightColumnActivities">
           <ActivityCard
             imageSrc={PetTherapy}
-            title="Pet Therapy"
-            dateAndTimeConcamarise="Sempre"
-            dateAndTimeBovolone="Sempre"
-            description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+            title="Stimolazione cognitiva "
+            dateAndTimeConcamarise="🕒 CONCAMARISE — 15:00 / 17:00"
+            dateAndTimeBovolone="🕒 BOVOLONE — 15:00 / 17:00"
+            description="La stimolazione cognitiva è un’attività che proponiamo per mantenere attive le funzioni mentali nelle persone con Alzheimer, attraverso esercizi mirati svolti in piccoli gruppi guidati da professionisti specializzati."
           />
           <ActivityCard
             imageSrc={PetTherapy}
-            title="Pet Therapy"
+            title="Cantoterapia"
             dateAndTimeConcamarise="Sempre"
             dateAndTimeBovolone="Sempre"
-            description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+            description="La cantoterapia è un’attività che utilizziamo per stimolare memoria, linguaggio ed emozioni nelle persone con Alzheimer, attraverso il canto di gruppo, il ritmo e il coinvolgimento attivo guidato da operatori specializzati."
           />
           <ActivityCard
             imageSrc={PetTherapy}

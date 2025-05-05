@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.leftColumnActivities {
+    width: 50%;
+}
+
+.rightColumnActivities {
+    width: 50%;
+}
+
 /* Container principale della card */
 .activity-card {
     border-radius: 1rem;
@@ -19,6 +27,13 @@
 }
 .activity-card:hover {
     transform: scale(1.01);
+}
+
+.activity-card-time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
 }
 
 /* Immagine */
