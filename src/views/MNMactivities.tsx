@@ -7,7 +7,6 @@ import "../Style.css";
 import PetTherapy from "../assets/IMG_3614.png";
 
 const Activities = () => {
-
     return (
         <>
             <NavBar />

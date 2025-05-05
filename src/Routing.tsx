@@ -1,32 +1,30 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./Style.css";
 
-import Home from "./views/home";
+import Home from "./views/MNMhome";
 import DailyCenter from "./views/dailyCenter";
-import Info from "./views/info";
-import Attività from "./views/activities";
-import Eventi from "./views/eventi";
-import Corsi from "./views/corsi";
+import Info from "./views/MNMinfo";
+import Attività from "./views/MNMactivities";
+import Eventi from "./views/MNMeventi";
+import Corsi from "./views/MNMcorsi";
 
 import Footer from "./components/footer";
 
 function Routing() {
-  return (
-    <BrowserRouter>
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Attività" element={<Attività />} />
+                <Route path="/Centro-Diurno" element={<DailyCenter />} />
+                <Route path="/Corsi" element={<Corsi />} />
+                <Route path="/Info" element={<Info />} />
+                <Route path="/Eventi" element={<Eventi />} />
+            </Routes>
 
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Attività" element={<Attività />} />
-        <Route path="/Centro-Diurno" element={<DailyCenter />} />
-        <Route path="/Corsi" element={<Corsi />} />
-        <Route path="/Info" element={<Info />} />
-        <Route path="/Eventi" element={<Eventi />} />
-      </Routes>
-
-      <Footer />
-    </BrowserRouter>
-  );
+            <Footer />
+        </BrowserRouter>
+    );
 }
 
 export default Routing;
