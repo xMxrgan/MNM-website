@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+    height: 100%;
+}
+
+/* Navbar fissa in alto */
+.DCnavbar {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Parte sinistra della navbar */
+.DCleftNav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* Icona del logo */
+.DCnavIcon {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+.DCnavIcon:hover {
+    transform: scale(1.1);
+}
+
+/* Blocco dei link */
+.DCnavLinkBlock {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* Link della navbar */
+.DCnavLink {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Sottolineatura animata sui link */
+.DCnavLink::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0%;
+    background-color: #c0d856;
+    transition: width 0.3s ease;
+}
+.DCnavLink:hover {
+    color: #a3bf44;
+}
+.DCnavLink:hover::after {
+    width: 100%;
+}
+
+/* Parte destra della navbar */
+.DCrightNav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* Bottone "Associazione" */
+.MNMbutton {
+    background: linear-gradient(
+        135deg,
+        var(--mnm-green) 0%,
+        var(--mnm-green-dark) 100%
+    );
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.MNMbutton:hover {
+    background: linear-gradient(135deg, var(--mnm-green-dark) 0%, #95b635 100%);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icona social (Facebook) */
+.DCnavSocial {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 768px) {
+    .DCnavbar {
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        gap: 2rem;
+    }
+
+    .DCleftNav,
+    .DCrightNav {
+        width: 100%;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+    .DCnavLink {
+        font-size: 1.1rem;
+    }
+}

@@ -5,6 +5,7 @@
 @import url("./css/footer.css");
 @import url("./css/eventi.css");
 @import url("./css/todaysDate.css");
+@import url("./css/DCnavbar.css");
 
 body {
     font-family: "Poppins", sans-serif; /* Usa il font Poppins */
