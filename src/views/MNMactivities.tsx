@@ -2,8 +2,6 @@ import ActivityCard from "../components/activityCard";
 import TodaysDate from "../components/todaysDate";
 import NavBar from "../components/MNMnavbar";
 import "../Style.css";
-
-// import ProvaImmagine from "../assets/react.svg";
 import PetTherapy from "../assets/IMG_3614.png";
 
 const Activities = () => {
