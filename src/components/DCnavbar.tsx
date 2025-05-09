@@ -12,7 +12,7 @@ const DCnavbar = () => {
                 <Link to="/" className="DCnavIcon">
                     <img src={react} className="DCnavIcon" alt="Logo MNM" />
                 </Link>
-                <Link to="/Centro-Diurno" className="MNMbutton">
+                <Link to="/" className="MNMbutton">
                     Associazione
                 </Link>
             </div>
@@ -22,24 +22,20 @@ const DCnavbar = () => {
                     <Link to="/" className="DCnavLink">
                         Home
                     </Link>
-                    <Link to="/DC_Eventi" className="DCnavLink">
+                    <Link to="/CD-Eventi" className="DCnavLink">
                         Eventi
                     </Link>
 
-                    <Link to="/DC_Professionisti" className="DCnavLink">
+                    <Link to="/CD-Professionisti" className="DCnavLink">
                         Professionisti
                     </Link>
 
-                    <Link to="/DC_Galleria" className="DCnavLink">
-                        Galleria
-                    </Link>
-
-                    <Link to="/DC_nfo" className="DCnavLink">
+                    <Link to="/CD-Info" className="DCnavLink">
                         Info & contatti
                     </Link>
                 </div>
                 <a
-                    href="https://www.facebook.com/ManonellaManoAssociazione/?locale=it_IT"
+                    href=""
                     className="DCnavSocial"
                     target="_blank"
                     rel="noopener noreferrer"

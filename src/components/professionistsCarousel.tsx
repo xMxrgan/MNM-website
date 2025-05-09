@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "../Style.css"; // Importa lo stile CSS per il carousel (creeremo questo file dopo)
 
 interface Professionist {
-    photo: string;
+    photo?: string;
     name: string;
-    description?: string;
+    description: string;
     // Add any other properties that might be needed
 }
 

@@ -3,14 +3,18 @@ import Professionist from "../components/professionistsCarousel";
 import "../Style.css";
 
 const DCprofessionists = () => {
-    // Temporary empty array to fix the missing props error
-    const dummyProfessionists: any[] = [];
+    // Temporary array to fix the missing props error
+    const dummyProfessionists = [
+        { name: "Morgan", description: "Figo", photo: "default.jpg" },
+    ];
 
     return (
         <>
+            <DCnavbar />
+            <Professionist professionists={dummyProfessionists} />
             <div>
-                <DCnavbar />
-                <Professionist professionists={dummyProfessionists} />
+                <h1>Torna più tardi...</h1>
+                <h1>Torna più tardi...</h1>
                 <h1>Torna più tardi...</h1>
             </div>
         </>

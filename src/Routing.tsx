@@ -7,7 +7,6 @@ import Info from "./views/MNMinfo";
 import Activities from "./views/MNMactivities";
 import Events from "./views/MNMevents";
 import Courses from "./views/MNMcourses";
-import Association from "./views/MNMhome";
 import DCcontacts from "./views/DCcontacts";
 import DCevents from "./views/DCevents";
 import DCinfo from "./views/DCinfo";
@@ -26,12 +25,11 @@ function Routing() {
                 <Route path="/Corsi" element={<Courses />} />
                 <Route path="/Info" element={<Info />} />
                 <Route path="/Eventi" element={<Events />} />
-                <Route path="/" element={<Association />} />
-                <Route path="/CD_Contatti" element={<DCcontacts />} />
-                <Route path="/CD_Eventi" element={<DCevents />} />
-                <Route path="/CD_Info" element={<DCinfo />} />
+                <Route path="/CD-Contatti" element={<DCcontacts />} />
+                <Route path="/CD-Eventi" element={<DCevents />} />
+                <Route path="/CD-Info" element={<DCinfo />} />
                 <Route
-                    path="/DC_Professionisti"
+                    path="/CD-Professionisti"
                     element={<DCprofessionists />}
                 />
             </Routes>

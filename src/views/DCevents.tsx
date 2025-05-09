@@ -4,9 +4,8 @@ import "../Style.css";
 const DCevents = () => {
     return (
         <>
-            <div>
-                <DCnavbar />
-            </div>
+            <DCnavbar />
+            <div></div>
         </>
     );
 };
