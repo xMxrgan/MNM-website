@@ -4,6 +4,7 @@ import "../Style.css"; // Importa lo stile CSS per il carousel (creeremo questo 
 interface Professionist {
     photo?: string;
     name: string;
+    profession: string;
     description: string;
     // Add any other properties that might be needed
 }
@@ -21,7 +22,7 @@ const ProfessionistCarousel = ({
     };
 
     return (
-        <div className="professionist-carousel">
+        <div className="professionist">
             {professionists.map(
                 (professionist: Professionist, index: number) => (
                     <div key={index} className="professionist-item">
@@ -33,6 +34,9 @@ const ProfessionistCarousel = ({
                         />
                         <p className="professionist-name">
                             {professionist.name}
+                        </p>
+                        <p className="professionist-profession">
+                            {professionist.profession}
                         </p>
                     </div>
                 ),

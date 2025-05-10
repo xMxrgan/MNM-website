@@ -7,6 +7,8 @@
 @import url("./css/todaysDate.css");
 @import url("./css/DCnavbar.css");
 @import url("./css/professionistCarousel.css");
+@import url("./css//DCinfo.css");
+
 body {
     font-family: "Poppins", sans-serif; /* Usa il font Poppins */
     background-color: #f8f9fa; /* Colore di sfondo della pagina */

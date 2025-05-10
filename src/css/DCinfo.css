@@ -1,0 +1,41 @@
+.DCinfoContacts {
+    padding: 2rem;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-image {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    scroll-snap-align: start;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}

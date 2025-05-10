@@ -1,21 +1,33 @@
-.professionist-carousel {
+.professionist {
+    background-color: #ffffff;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 16px;
     padding: 16px;
+    text: bold;
+}
+
+.professionist-carousel {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* oppure wrap se vuoi andare a capo */
+    overflow-x: auto; /* opzionale, utile se hai tante card */
+    gap: 1rem; /* spazio tra i carousels */
+    padding: 1rem;
 }
 
 .professionist-item {
     flex: 0 0 auto;
-    width: 120px;
+    width: 150px;
     text-align: center;
     cursor: pointer;
 }
 
 .professionist-photo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ffffff;
@@ -28,7 +40,12 @@
 }
 
 .professionist-name {
-    margin-top: 8px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.professionist-profession {
+    font-weight: normal;
 }
 
 .professionist-details {

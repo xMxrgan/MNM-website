@@ -14,10 +14,12 @@ import DCinfo from "./views/DCinfo";
 import DCprofessionists from "./views/DCprofessionists";
 
 import Footer from "./components/footer";
+import NavBar from "./components/MNMnavbar";
 
 function Routing() {
     return (
         <BrowserRouter>
+            <NavBar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Attività" element={<Activities />} />
