@@ -13,15 +13,12 @@ const DCnavbar = () => {
                     <img src={react} className="DCnavIcon" alt="Logo MNM" />
                 </Link>
                 <Link to="/" className="MNMbutton">
-                    Associazione
+                    Home
                 </Link>
             </div>
 
             <div className="DCrightNav">
                 <div className="DCnavLinkBlock">
-                    <Link to="/" className="DCnavLink">
-                        Home
-                    </Link>
                     <Link to="/CD-Eventi" className="DCnavLink">
                         Eventi
                     </Link>

@@ -3,6 +3,7 @@
 }
 
 .carousel {
+    margin-top: 80px;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;

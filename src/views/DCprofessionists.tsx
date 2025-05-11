@@ -1,5 +1,4 @@
 import DCnavbar from "../components/DCnavbar";
-import ProfessionistCarousel from "../components/professionistsCarousel";
 import "../Style.css";
 
 const DCprofessionists = () => {
@@ -50,9 +49,7 @@ const DCprofessionists = () => {
                 <ProfessionistCarousel professionists={Morgan4} />
             </div>
 
-            <div>
-                <h1>Torna più tardi...</h1>
-                <h1>Torna più tardi...</h1>
+            <div className="">
                 <h1>Torna più tardi...</h1>
             </div>
         </>
