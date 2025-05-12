@@ -8,6 +8,7 @@
 @import url("./css/DCnavbar.css");
 @import url("./css/DCinfo.css");
 @import url("./css/DCprofessionists.css");
+
 body {
     font-family: "Poppins", sans-serif; /* Usa il font Poppins */
     background-color: #f8f9fa; /* Colore di sfondo della pagina */

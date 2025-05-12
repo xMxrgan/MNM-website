@@ -1,3 +1,7 @@
+body {
+    background-color: #f8f8f8;
+}
+
 .DCinfoContacts {
     padding: 2rem;
 }
@@ -27,7 +31,7 @@
 }
 
 .contact-info {
-    background-color: #f8f8f8;
+    background-color: white;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,4 +43,11 @@
 
 .contact-info p {
     margin: 0.5rem 0;
+}
+
+.DCmap-position {
+}
+
+.map-container {
+    border-radius: 30px;
 }

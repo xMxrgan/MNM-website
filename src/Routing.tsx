@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./Style.css";
 
 import Home from "./views/MNMhome";
-import DailyCenter from "./views/dailyCenter";
+import DailyCenter from "./views/DChome";
 import Info from "./views/MNMinfo";
 import Activities from "./views/MNMactivities";
 import Events from "./views/MNMevents";

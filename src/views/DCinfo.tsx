@@ -66,7 +66,9 @@ const DCinfoContacts = () => {
     return (
         <>
             <DCnavbar />
+
             <div className="DCinfoContacts">
+                <h2>Galleria</h2>
                 {/* Carosello immagini */}
                 <div
                     className="carousel"
@@ -83,20 +85,35 @@ const DCinfoContacts = () => {
 
                 {/* Info contatti */}
                 <div className="contact-info">
-                    <h2>Contattaci</h2>
-                    <p>
-                        <strong>Indirizzo:</strong> Via Lucio Battisti 16, 37050
-                        Concamarise Verona
-                    </p>
-                    <p>
-                        <strong>Telefono:</strong> +39 xxxxxxxxxx
-                    </p>
-                    <p>
-                        <strong>Email:</strong> xxxxxxx@xxxxxxx,it
-                    </p>
-                    <p>
-                        <strong>Orari:</strong> Lun-Ven, 7:00 - 18:00
-                    </p>
+                    <div className="contacts">
+                        <h2>Contattaci</h2>
+                        <p>
+                            <strong>Indirizzo:</strong> Via Lucio Battisti 16,
+                            37050 Concamarise Verona
+                        </p>
+                        <p>
+                            <strong>Telefono:</strong> +39 xxxxxxxxxx
+                        </p>
+                        <p>
+                            <strong>Email:</strong> xxxxxxx@xxxxxxx,it
+                        </p>
+                        <p>
+                            <strong>Orari:</strong> Lun-Ven, 7:00 - 18:00
+                        </p>
+                    </div>
+                </div>
+                <div className="DCmap-position">
+                    <div className="map-container">
+                        <iframe
+                            src=""
+                            width="100%"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            title="Mappa Sede"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </>

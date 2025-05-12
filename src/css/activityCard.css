@@ -1,15 +1,3 @@
-.activities-container {
-    display: flex;
-}
-
-.leftColumnActivities {
-    width: 50%;
-}
-
-.rightColumnActivities {
-    width: 50%;
-}
-
 /* Container principale della card */
 .activity-card {
     border-radius: 1rem;
@@ -25,6 +13,7 @@
     transform-origin: top;
     margin: 25px;
 }
+
 .activity-card:hover {
     transform: scale(1.01);
 }
@@ -94,7 +83,7 @@
 
 .activity-card.expanded .activity-card-description {
     opacity: 1;
-    max-height: 300px; /* o quanto necessario per il contenuto */
+    max-height: 300px;
 }
 
 /* Container delle cards */
@@ -105,4 +94,16 @@
     gap: 1.5rem;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+.activities-container {
+    display: flex;
+}
+
+.leftColumnActivities {
+    width: 50%;
+}
+
+.rightColumnActivities {
+    width: 50%;
 }
