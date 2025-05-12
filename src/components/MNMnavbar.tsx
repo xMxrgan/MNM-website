@@ -1,7 +1,7 @@
 // import mnmLogo from "../assets/MNM_logo.png";
 import fbLogo from "../assets/FB_logo.svg";
 import { Link } from "react-router-dom";
-import react from "../assets/react.svg";
+import MNMlogo from "../assets/MNMlogo.png";
 import "../Style.css";
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
             {/*Parte sinistra della navbar */}
             <div className="leftNav">
                 <Link to="/" className="navIcon">
-                    <img src={react} className="navIcon" alt="Logo MNM" />
+                    <img src={MNMlogo} className="navIcon" alt="Logo MNM" />
                 </Link>
                 <Link to="/Centro-Diurno" className="DCbutton">
                     Centro Diurno

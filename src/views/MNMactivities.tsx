@@ -53,7 +53,14 @@ const Activities = () => {
                     />
                     <ActivityCard
                         imageSrc={PetTherapy}
-                        title="Pet Therapy"
+                        title="Socializzazione"
+                        dateAndTimeConcamarise="Sempre"
+                        dateAndTimeBovolone="Sempre"
+                        description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+                    />
+                    <ActivityCard
+                        imageSrc={PetTherapy}
+                        title="Arte terapia"
                         dateAndTimeConcamarise="Sempre"
                         dateAndTimeBovolone="Sempre"
                         description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
