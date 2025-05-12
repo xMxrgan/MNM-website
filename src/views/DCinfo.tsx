@@ -85,8 +85,8 @@ const DCinfoContacts = () => {
                 <div className="contact-info">
                     <h2>Contattaci</h2>
                     <p>
-                        <strong>Indirizzo:</strong> Via Lucio Battisti 16 37050
-                        Concamarise VR Italy
+                        <strong>Indirizzo:</strong> Via Lucio Battisti 16, 37050
+                        Concamarise Verona
                     </p>
                     <p>
                         <strong>Telefono:</strong> +39 xxxxxxxxxx

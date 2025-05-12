@@ -87,7 +87,8 @@ const DCprofessionists = () => {
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
-            description: "Figo",
+            description:
+                "Nam laudantium iste fugit dignissimos neque. Et rerum nemo repellat repudiandae aut laborum eum est. Labore accusamus velit voluptatibus eum sunt distinctio. Culpa architecto quis rem tempore minima consequatur reiciendis.",
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
@@ -95,7 +96,8 @@ const DCprofessionists = () => {
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
-            description: "Figo",
+            description:
+                "Nam laudantium iste fugit dignissimos neque. Et rerum nemo repellat repudiandae aut laborum eum est. Labore accusamus velit voluptatibus eum sunt distinctio. Culpa architecto quis rem tempore minima consequatur reiciendis.",
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
