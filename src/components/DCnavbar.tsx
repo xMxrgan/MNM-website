@@ -12,7 +12,7 @@ const DCnavbar = () => {
                     <img src={MNMlogo} className="DCnavIcon" alt="Logo MNM" />
                 </Link>
                 <Link to="/" className="MNMbutton">
-                    Home
+                    Associazione
                 </Link>
             </div>
 
