@@ -3,7 +3,14 @@ import DCnavbar from "../components/DCnavbar";
 import "../Style.css";
 
 const DCprofessionists = () => {
-    const Morgan1 = [
+    type Professionist = {
+        name: string;
+        profession: string;
+        description: string;
+        photo: string;
+    };
+
+    const Morgan1: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -11,7 +18,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan2 = [
+    const Morgan2: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -19,7 +26,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan3 = [
+    const Morgan3: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -27,7 +34,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan4 = [
+    const Morgan4: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -35,7 +42,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan5 = [
+    const Morgan5: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -43,7 +50,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan6 = [
+    const Morgan6: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -51,7 +58,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan7 = [
+    const Morgan7: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -59,7 +66,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan8 = [
+    const Morgan8: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -67,7 +74,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan9 = [
+    const Morgan9: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -75,7 +82,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan10 = [
+    const Morgan10: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -83,7 +90,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan11 = [
+    const Morgan11: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -92,7 +99,7 @@ const DCprofessionists = () => {
             photo: "../src/assets/foto_prova.jpg",
         },
     ];
-    const Morgan12 = [
+    const Morgan12: Professionist[] = [
         {
             name: "Dr. Picariello",
             profession: "Sociologo",
@@ -102,12 +109,14 @@ const DCprofessionists = () => {
         },
     ];
 
-    const [selectedProf, setSelectedProf] = useState<any | null>(null);
+    const [selectedProf, setSelectedProf] = useState<Professionist | null>(
+        null,
+    );
 
     const ProfessionistGrid = ({
         professionists,
     }: {
-        professionists: any[];
+        professionists: Professionist[];
     }) => (
         <div className="professionist-grid">
             {professionists.map((prof, index) => (
