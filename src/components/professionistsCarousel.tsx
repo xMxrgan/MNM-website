@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import "../Style.css"; // Importa lo stile CSS per il carousel (creeremo questo file dopo)
+import React from "react";
 
 interface Professionist {
     photo?: string;
@@ -15,7 +15,7 @@ const ProfessionistCarousel = ({
     professionists: Professionist[];
 }) => {
     const [selectedProfessionist, setSelectedProfessionist] =
-        useState<Professionist | null>(null);
+        React.useState<Professionist | null>(null);
 
     const handleClick = (professionist: Professionist) => {
         setSelectedProfessionist(professionist);

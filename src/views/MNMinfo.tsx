@@ -113,17 +113,6 @@ const Info = () => {
             </div>
 
             <section className="legal-info"></section>
-
-            <section>
-                <div className="sponsor-section">
-                    <h2>Sostenitori</h2>
-                    <div className="sponsor-logos">
-                        <img src={} alt="Sponsor 1" />
-                        <img src={} alt="Sponsor 2" />
-                        <img src={} alt="Sponsor 3" />
-                    </div>
-                </div>
-            </section>
         </>
     );
 };
