@@ -6,7 +6,7 @@ import PetTherapy from "../assets/dogs.png";
 import MusicTherapy from "../assets/instruments.png";
 import CognitiveStimulation from "../assets/stimolazioneCognitiva.jpg";
 import ArtTherapy from "../assets/artTherapy.jpg";
-
+import SewingActivity from "../assets/sewing.jpeg";
 import "../Style.css";
 
 const Activities = () => {
@@ -34,6 +34,13 @@ const Activities = () => {
                     <ActivityCard
                         imageSrc={PetTherapy}
                         title="Ginnastica dolce"
+                        dateAndTimeConcamarise="Sempre"
+                        dateAndTimeBovolone="Sempre"
+                        description="Lorem ipsum dolor sit amet, \nLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+                    />
+                    <ActivityCard
+                        imageSrc={SewingActivity}
+                        title="Uncinetto"
                         dateAndTimeConcamarise="Sempre"
                         dateAndTimeBovolone="Sempre"
                         description="Lorem ipsum dolor sit amet, \nLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"

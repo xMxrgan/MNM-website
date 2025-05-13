@@ -12,7 +12,6 @@ import DCevents from "./views/DCevents";
 import DCinfo from "./views/DCinfo";
 // import DCmodules from "./views/DCmodules";
 import DCprofessionists from "./views/DCprofessionists";
-
 import Footer from "./components/footer";
 import NavBar from "./components/MNMnavbar";
 
