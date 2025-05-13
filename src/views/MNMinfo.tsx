@@ -1,11 +1,10 @@
 import "../Style.css";
 import CopyButton from "../components/copyButton";
 import NavBar from "../components/MNMnavbar";
-// import NamesWall from "../assets/chiSiamo.jpg";
+import NamesWall from "../assets/namesWall.jpg";
 
 const Info = () => {
     const iban: string = "IT91H0832259430000000809031";
-    // Using cFiscale in the 5x1000 section to fix the "never used" diagnostic
     const cFiscale: string = "91023590234";
 
     return (
@@ -13,13 +12,12 @@ const Info = () => {
             <div className="info-container">
                 <NavBar />
                 {/* Banner */}
-                <section className="chi-siamo-banner">
-                    <div className="banner-content">
-                        <h1>Chi Siamo</h1>
-                        <p className="subtitle">Mano nella Mano</p>
-                    </div>
-                </section>
 
+                <img className="info-banner" src={NamesWall} alt="Chi Siamo" />
+
+                <div className="banner-content">
+                    <h1>Associazione Mano nella Mano O.D.V.</h1>
+                </div>
                 <div className="description">
                     Grazie ad un progetto regionale coordinato dall'ULSS, è
                     attivo il centro dedicato a tutte le persone affette da
@@ -30,7 +28,7 @@ const Info = () => {
                     settimana a Bovolone e quattro incontri fissi a settimana a
                     Concamarise, finalizzati a mantenere attive le funzioni
                     primarie, proponendo attività non farmacologiche adeguate e
-                    specifiche per la patologia.{" "}
+                    specifiche per la patologia.
                 </div>
 
                 {/* Due colonne */}
@@ -111,8 +109,6 @@ const Info = () => {
                     </div>
                 </section>
             </div>
-
-            <section className="legal-info"></section>
         </>
     );
 };

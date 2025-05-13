@@ -1,7 +1,10 @@
+body {
+    background-color: #f8f9fa;
+}
+
 .info-container {
     max-width: 100%;
     margin: 0 auto;
-    color: #333;
 }
 
 h1,
@@ -13,18 +16,13 @@ h4 {
 }
 
 /* Banner Chi Siamo */
-.chi-siamo-banner {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+.info-banner {
     background-size: cover;
     background-position: center;
     border-radius: 30px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    color: white;
-    padding: 8rem 2rem;
-    text-align: center;
     margin-bottom: 3rem;
-    padding-top: 10rem;
+    text-align: center;
 }
 
 .banner-content {
@@ -46,6 +44,9 @@ h4 {
 .description {
     font-size: 1.1rem;
     line-height: 1.6;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
 }
 
 /* Sezione Contatti */
