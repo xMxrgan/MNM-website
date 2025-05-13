@@ -1,9 +1,13 @@
 import ActivityCard from "../components/activityCard";
 import TodaysDate from "../components/todaysDate";
 import NavBar from "../components/MNMnavbar";
-import "../Style.css";
+
 import PetTherapy from "../assets/dogs.png";
 import MusicTherapy from "../assets/instruments.png";
+import CognitiveStimulation from "../assets/stimolazioneCognitiva.jpg";
+import ArtTherapy from "../assets/artTherapy.jpg";
+
+import "../Style.css";
 
 const Activities = () => {
     return (
@@ -38,7 +42,7 @@ const Activities = () => {
 
                 <div className="rightColumnActivities">
                     <ActivityCard
-                        imageSrc={PetTherapy}
+                        imageSrc={CognitiveStimulation}
                         title="Stimolazione cognitiva"
                         dateAndTimeConcamarise="🕒 CONCAMARISE — 15:00 / 17:00"
                         dateAndTimeBovolone="🕒 BOVOLONE — 15:00 / 17:00"
@@ -59,7 +63,7 @@ const Activities = () => {
                         description="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
                     />
                     <ActivityCard
-                        imageSrc={PetTherapy}
+                        imageSrc={ArtTherapy}
                         title="Arte terapia"
                         dateAndTimeConcamarise="Sempre"
                         dateAndTimeBovolone="Sempre"

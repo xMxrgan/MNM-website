@@ -1,13 +1,12 @@
 import "../Style.css";
 import CopyButton from "../components/copyButton";
-import ReactLogo from "../assets/react.svg";
 import NavBar from "../components/MNMnavbar";
+// import NamesWall from "../assets/chiSiamo.jpg";
 
 const Info = () => {
     const iban: string = "IT91H0832259430000000809031";
     // Using cFiscale in the 5x1000 section to fix the "never used" diagnostic
     const cFiscale: string = "91023590234";
-
 
     return (
         <>
@@ -18,37 +17,41 @@ const Info = () => {
                     <div className="banner-content">
                         <h1>Chi Siamo</h1>
                         <p className="subtitle">Mano nella Mano</p>
-                        <p className="description">
-                            {" "}
-                            Grazie ad un progetto regionale coordinato dall'ULSS, è attivo il
-                            centro dedicato a tutte le persone affette da demenza e sindrome
-                            di Alzheimer.
-                            <br />
-                            Volontari formati, affiancati da professionisti esperti, conducono
-                            incontri, con una frequenza di tre incontri a settimana a Bovolone
-                            e quattro incontri fissi a settimana a Concamarise, finalizzati a
-                            mantenere attive le funzioni primarie, proponendo attività non
-                            farmacologiche adeguate e specifiche per la patologia.{" "}
-                        </p>
                     </div>
                 </section>
+
+                <div className="description">
+                    Grazie ad un progetto regionale coordinato dall'ULSS, è
+                    attivo il centro dedicato a tutte le persone affette da
+                    demenza e sindrome di Alzheimer.
+                    <br />
+                    Volontari formati, affiancati da professionisti esperti,
+                    conducono incontri, con una frequenza di tre incontri a
+                    settimana a Bovolone e quattro incontri fissi a settimana a
+                    Concamarise, finalizzati a mantenere attive le funzioni
+                    primarie, proponendo attività non farmacologiche adeguate e
+                    specifiche per la patologia.{" "}
+                </div>
 
                 {/* Due colonne */}
                 <section className="two-column-section">
                     {/* Sostienici */}
                     <div className="left-column">
                         <div className="sostienici-container">
-                            <h3>Sii il cambiamento che vuoi vedere nel mondo</h3>
+                            <h3>
+                                Sii il cambiamento che vuoi vedere nel mondo
+                            </h3>
                             <p>
-                                Ci sono luoghi al mondo dove più che le regole <br /> è
-                                importante la gentilezza
+                                Ci sono luoghi al mondo dove più che le regole{" "}
+                                <br /> è importante la gentilezza
                             </p>
                             <br />
 
                             <p>
-                                Sostienici con una donazione: il tuo contributo ci aiuta a
-                                offrire attività terapeutiche e momenti di benessere a persone
-                                con Alzheimer. Ogni gesto fa la differenza.
+                                Sostienici con una donazione: il tuo contributo
+                                ci aiuta a offrire attività terapeutiche e
+                                momenti di benessere a persone con Alzheimer.
+                                Ogni gesto fa la differenza.
                             </p>
 
                             <div className="donation-options">
@@ -56,15 +59,24 @@ const Info = () => {
                                 <div className="donation-method">
                                     <h4>Bonifico Bancario</h4>
                                     <p>IBAN: {iban}</p>
-                                    <p>Intestato a: Associazione Mano nella Mano</p>
+                                    <p>
+                                        Intestato a: Associazione Mano nella
+                                        Mano
+                                    </p>
                                     {/* Fixed CopyButton by removing children property and using proper syntax */}
-                                    <CopyButton textToCopy={iban} buttonName="Copia IBAN" />
+                                    <CopyButton
+                                        textToCopy={iban}
+                                        buttonName="Copia IBAN"
+                                    />
                                 </div>
 
                                 <div className="donation-method">
                                     <h4>5x1000</h4>
                                     <p>Codice Fiscale: {cFiscale}</p>
-                                    <CopyButton textToCopy={cFiscale} buttonName="Copia C.F." />
+                                    <CopyButton
+                                        textToCopy={cFiscale}
+                                        buttonName="Copia C.F."
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -91,7 +103,9 @@ const Info = () => {
                                 <p>37050 Concamarise, Verona</p>
                                 <p>Tel: +39 3442919781</p>
                                 <p>Tel: +39 3498928351</p>
-                                <p>Email: manonellamanoassociazione@gmail.com</p>
+                                <p>
+                                    Email: manonellamanoassociazione@gmail.com
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -104,9 +118,9 @@ const Info = () => {
                 <div className="sponsor-section">
                     <h2>Sostenitori</h2>
                     <div className="sponsor-logos">
-                        <img src={ReactLogo} alt="Sponsor 1" />
-                        <img src={ReactLogo} alt="Sponsor 2" />
-                        <img src={ReactLogo} alt="Sponsor 3" />
+                        <img src={} alt="Sponsor 1" />
+                        <img src={} alt="Sponsor 2" />
+                        <img src={} alt="Sponsor 3" />
                     </div>
                 </div>
             </section>
