@@ -26,13 +26,19 @@ function Routing() {
                 <Route path="/Corsi" element={<Courses />} />
                 <Route path="/Info" element={<Info />} />
                 <Route path="/Eventi" element={<Events />} />
+                {/*
                 <Route path="/CD-Contatti" element={<DCcontacts />} />
                 <Route path="/CD-Eventi" element={<DCevents />} />
                 <Route path="/CD-Info" element={<DCinfo />} />
                 <Route
                     path="/CD-Professionisti"
                     element={<DCprofessionists />}
-                />
+                /> */}
+
+                <Route path="/CD-Contatti" element={<DailyCenter />} />
+                <Route path="/CD-Eventi" element={<DailyCenter />} />
+                <Route path="/CD-Info" element={<DailyCenter />} />
+                <Route path="/CD-Professionisti" element={<DailyCenter />} />
             </Routes>
 
             <Footer />
