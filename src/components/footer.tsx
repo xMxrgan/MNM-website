@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import "../Style.css";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer className="footerBar">
             <div className="footerCopyright">
-                Copyright © 2025 Associazione Mano nella Mano O.D.V.
+                Copyright © {currentYear} Associazione Mano nella Mano O.D.V.
             </div>
             <div className="footerContainer">
                 <Link to="/terms">Termini e condizioni</Link>
