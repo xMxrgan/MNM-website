@@ -1,5 +1,5 @@
 /* Container principale del carosello */
-.mnm-carousel {
+.mnm-events-carousel {
     border-radius: 1rem;
     background-color: #ffffff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -9,65 +9,121 @@
         transform 0.4s ease;
     transform-origin: top;
     margin: 25px;
-    max-width: 100%;
-    cursor: grab;
+    max-width: 25rem;
+    cursor: pointer;
 }
 
-.mnm-carousel:hover {
+.mnm-events-carousel:hover {
     transform: scale(1.01);
 }
 
+.year {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mnm-events-carousel-download {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-color: black;
+    font-size: 0.9rem;
+    transition: background-color 0.1s ease;
+}
+
+.mnm-events-carousel-download:hover {
+    color: white;
+    border: 1.5px solid var(--mnm-green);
+    background-color: var(--mnm-green);
+}
+
 /* Immagine del carosello */
-.mnm-carousel-img {
+.mnm-events-carousel-img {
     width: 100%;
-    height: 14rem;
-    object-fit: cover;
+    height: auto;
+    max-height: 200px; /* Opzionale: limita l'altezza massima */
+    object-fit: contain;
+    aspect-ratio: 4 / 3; /* O 16 / 9 */
     display: block;
 }
 
 /* Contenitore contenuto */
-.mnm-carousel-content {
-    padding: 1rem;
+.mnm-events-carousel-content {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /* Allinea verticalmente al centro */
+    justify-content: space-between; /* Spazio tra testo e bottone */
+    gap: 1rem; /* Spazio orizzontale tra testo e bottone */
+    padding: 1rem;
+}
+
+/* Contenitore per il titolo (nuovo) */
+.mnm-events-carousel-title-container {
+    text-align: center; /* Centra il titolo orizzontalmente */
+    width: 100%; /* Occupa tutta la larghezza disponibile */
 }
 
 /* Titolo dell'evento */
-.mnm-carousel-title {
-    font-size: 1.5rem;
+.mnm-events-carousel-title {
+    font-size: 1rem;
     font-weight: bold;
     color: #333333;
+    margin: 0; /* Rimuove margini predefiniti per il centramento */
 }
 
 /* Box per anno o info addizionali */
-.mnm-carousel-info {
+.mnm-events-carousel-info {
     margin-top: 0.5rem;
     color: #666666;
     font-size: 1rem;
 }
 
 /* Container esterno per più elementi (es. per swipe o scroll orizzontale) */
-.mnm-carousel-wrapper {
+.mnm-events-carousel-wrapper {
     display: flex;
+    flex-direction: row; /* Esplicito per chiarezza */
     overflow-x: auto;
     gap: 1.5rem;
-    padding: 1rem;
+    margin-bottom: 2rem;
     scroll-snap-type: x mandatory;
 }
 
-.mnm-carousel-wrapper::-webkit-scrollbar {
+.mnm-events-carousel-wrapper::-webkit-scrollbar {
     height: 8px;
 }
 
-.mnm-carousel-wrapper::-webkit-scrollbar-thumb {
+.mnm-events-carousel-wrapper::-webkit-scrollbar-thumb {
     background-color: #cccccc;
     border-radius: 4px;
 }
 
 /* Ogni slide si allinea nello scroll */
-.mnm-carousel {
+.mnm-events-carousel-slide {
     scroll-snap-align: start;
     flex: 0 0 auto;
-    width: 300px;
+    width: auto; /* Modificato da 100px per un layout più pratico */
+}
+
+/* Stile alternativo per il bottone download */
+.mnm-events-carousel-download-alt {
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #000;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.mnm-events-carousel-download-alt:hover {
+    background-color: var(
+        --mnm-green,
+        #95b635
+    ); /* Usa la variabile se esiste, altrimenti il verde di fallback */
+    color: #fff;
+    border-color: var(--mnm-green, #95b635);
 }

@@ -5,14 +5,17 @@ const MNMeventsCarousel = ({
     image: string;
     title: string;
 }) => {
-    const chooseYear: number = 2025; // To initialize the year
-
     return (
         <div className="mnm-events-carousel">
-            {/* Your carousel content here */}
-            <img src={image} alt={title} />
-            <h2>{title}</h2>
-            <p>Year: {chooseYear}</p>
+            <img className="mnm-events-carousel-img" src={image} alt={title} />
+            <div className="mnm-events-carousel-content">
+                <div className="mnm-events-carousel-title-container">
+                    <h2 className="mnm-events-carousel-title">{title}</h2>
+                </div>
+                <a href="#" className="mnm-events-carousel-download">
+                    Scarica
+                </a>
+            </div>
         </div>
     );
 };
