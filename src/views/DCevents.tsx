@@ -7,7 +7,7 @@ const DCevents = () => {
         <>
             <DCnavbar />
             <TodaysDate />
-            <div></div>
+            <div className="DCevents-container"></div>
         </>
     );
 };

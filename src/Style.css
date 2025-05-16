@@ -5,6 +5,7 @@
 @import url("./css/footer.css");
 @import url("./css/eventi.css");
 @import url("./css/todaysDate.css");
+@import url("./css/DChome.css");
 @import url("./css/DCnavbar.css");
 @import url("./css/DCinfo.css");
 @import url("./css/DCprofessionists.css");
@@ -20,7 +21,6 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
-
     --mnm-green: #c0d856; /* Verde preso dal logo */
     --mnm-green-dark: #a3bf44; /* Variante più scura per hover */
 }

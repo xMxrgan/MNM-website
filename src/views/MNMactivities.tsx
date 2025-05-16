@@ -2,11 +2,11 @@ import ActivityCard from "../components/activityCard";
 import TodaysDate from "../components/todaysDate";
 import NavBar from "../components/MNMnavbar";
 
-import PetTherapy from "../assets/dogs.png";
-import MusicTherapy from "../assets/instruments.png";
-import CognitiveStimulation from "../assets/stimolazioneCognitiva.jpg";
-import ArtTherapy from "../assets/artTherapy.jpg";
-import SewingActivity from "../assets/sewing.jpeg";
+import PetTherapy from "../assets/MNMactivities/dogs.png";
+import MusicTherapy from "../assets/MNMactivities/instruments.png";
+import CognitiveStimulation from "../assets/MNMactivities/stimolazioneCognitiva.jpg";
+import ArtTherapy from "../assets/MNMactivities/artTherapy.jpg";
+import SewingActivity from "../assets/MNMactivities/sewing.jpeg";
 import "../Style.css";
 
 const Activities = () => {

@@ -7,11 +7,11 @@ import Info from "./views/MNMinfo";
 import Activities from "./views/MNMactivities";
 import Events from "./views/MNMevents";
 import Courses from "./views/MNMcourses";
-import DCcontacts from "./views/DCcontacts";
-import DCevents from "./views/DCevents";
-import DCinfo from "./views/DCinfo";
+// import DCcontacts from "./views/DCcontacts";
+// import DCevents from "./views/DCevents";
+// import DCinfo from "./views/DCinfo";
 // import DCmodules from "./views/DCmodules";
-import DCprofessionists from "./views/DCprofessionists";
+// import DCprofessionists from "./views/DCprofessionists";
 import Footer from "./components/footer";
 import NavBar from "./components/MNMnavbar";
 

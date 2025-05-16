@@ -1,0 +1,41 @@
+/* Centra tutto il contenuto della pagina */
+.DChome-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra verticalmente */
+    align-items: center;     /* centra orizzontalmente */
+    gap: 2.5rem;
+}
+
+/* L'immagine welcome in alto */
+.DChome-pic {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+/* Riga con titolo, modulo e info sulla stessa linea */
+.DChome-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Centra il testo nei blocchi della riga */
+.DChome-row > * {
+    text-align: center;
+}
+
+/* Responsive: su mobile metti in colonna */
+@media (max-width: 768px) {
+    .DChome-row {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

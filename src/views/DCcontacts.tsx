@@ -3,9 +3,8 @@ import "../Style.css";
 const DCcontacts = () => {
     return (
         <>
-            <div>
-                <DCnavbar />
-            </div>
+            <DCnavbar />
+            <div className="DCcontacts-container"></div>
         </>
     );
 };
