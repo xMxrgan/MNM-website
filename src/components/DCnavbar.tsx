@@ -1,5 +1,5 @@
 import fbLogo from "../assets/FB_logo.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import MNMlogo from "../assets/MNMlogo.png";
 import "../Style.css";
 
@@ -8,9 +8,9 @@ const DCnavbar = () => {
         <nav className="DCnavbar">
             {/*Parte sinistra della navbar */}
             <div className="DCleftNav">
-                <Link to="/" className="DCnavIcon">
+                <NavLink to="/" className="DCnavIcon">
                     <img src={MNMlogo} className="DCnavIcon" alt="Logo MNM" />
-                </Link>
+                </NavLink>
                 <Link to="/" className="MNMbutton">
                     Associazione
                 </Link>
@@ -18,17 +18,17 @@ const DCnavbar = () => {
 
             <div className="DCrightNav">
                 <div className="DCnavLinkBlock">
-                    <Link to="/CD-Eventi" className="DCnavLink">
+                    <NavLink to="/CD-Eventi" className="DCnavLink">
                         Eventi
-                    </Link>
+                    </NavLink>
 
-                    <Link to="/CD-Professionisti" className="DCnavLink">
+                    <NavLink to="/CD-Professionisti" className="DCnavLink">
                         Professionisti
-                    </Link>
+                    </NavLink>
 
-                    <Link to="/CD-Info" className="DCnavLink">
+                    <NavLink to="/CD-Info" className="DCnavLink">
                         Info & contatti
-                    </Link>
+                    </NavLink>
                 </div>
                 <a
                     href=""

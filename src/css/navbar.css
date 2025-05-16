@@ -26,6 +26,24 @@ body {
     align-items: center;
 }
 
+.navLink.active {
+    color: #a3bf44;
+    /* nessuna posizione assoluta qui */
+    text-decoration: none;
+}
+
+/* Sottolineatura animata per il link attivo */
+.navLink.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 100%; /* Sottolineatura piena */
+    background-color: #c0d856;
+    transition: width 0.3s ease;
+}
+
 /* Parte sinistra della navbar */
 .leftNav {
     display: flex;

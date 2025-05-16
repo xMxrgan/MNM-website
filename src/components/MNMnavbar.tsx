@@ -1,42 +1,62 @@
-// import mnmLogo from "../assets/MNM_logo.png";
 import fbLogo from "../assets/FB_logo.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import MNMlogo from "../assets/MNMlogo.png";
 import "../Style.css";
 
 const NavBar = () => {
+    const location = useLocation();
+    const [activePath, setActivePath] = useState(location.pathname);
+
+    useEffect(() => {
+        setActivePath(location.pathname);
+    }, [location]);
+
     return (
         <nav className="navbar">
             {/*Parte sinistra della navbar */}
             <div className="leftNav">
-                <Link to="/" className="navIcon">
+                <NavLink to="/" className="navIcon">
                     <img src={MNMlogo} className="navIcon" alt="Logo MNM" />
-                </Link>
-                <Link to="/Centro-Diurno" className="DCbutton">
+                </NavLink>
+                <NavLink to="/Centro-Diurno" className="DCbutton">
                     Centro Diurno
-                </Link>
+                </NavLink>
             </div>
 
             <div className="rightNav">
                 <div className="navLinkBlock">
-                    <Link to="/" className="navLink">
+                    <NavLink
+                        to="/"
+                        className={`navLink${activePath === "/" ? " active" : ""}`}
+                    >
                         Home
-                    </Link>
-                    <Link to="/Attività" className="navLink">
+                    </NavLink>
+                    <NavLink
+                        to="/Attività"
+                        className={`navLink${activePath === "/Attività" ? " active" : ""}`}
+                    >
                         Attività
-                    </Link>
-
-                    <Link to="/Corsi" className="navLink">
+                    </NavLink>
+                    <NavLink
+                        to="/Corsi"
+                        className={`navLink${activePath === "/Corsi" ? " active" : ""}`}
+                    >
                         Corsi
-                    </Link>
-
-                    <Link to="/Eventi" className="navLink">
+                    </NavLink>
+                    <NavLink
+                        to="/Eventi"
+                        className={`navLink${activePath === "/Eventi" ? " active" : ""}`}
+                    >
                         Eventi
-                    </Link>
-
-                    <Link to="/Info" className="navLink">
+                    </NavLink>
+                    <NavLink
+                        to="/Info"
+                        className={`navLink${activePath === "/Info" ? " active" : ""}`}
+                    >
                         Info & contatti
-                    </Link>
+                    </NavLink>
                 </div>
                 <a
                     href="https://www.facebook.com/ManonellaManoAssociazione/?locale=it_IT"
