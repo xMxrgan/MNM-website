@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+.description {
+    font-size: 22px;
+}
+
 .mnm-events-carousel:hover {
     transform: scale(1.01);
 }

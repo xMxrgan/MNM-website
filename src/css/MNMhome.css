@@ -1,0 +1,20 @@
+body {
+}
+
+.mnm-logo {
+    width: 45rem;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.mnm-motto {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.donation-banner {
+    height: auto;
+    width: 100%;
+}

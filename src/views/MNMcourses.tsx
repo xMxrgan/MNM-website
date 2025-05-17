@@ -27,6 +27,14 @@ const Corsi = () => {
             <NavBar />
             <TodaysDate />
 
+            <div className="description">
+                La nostra O.D.V. offre incontri mirati all'approfondimento
+                tramite formazione / informazione sul miglior modo di
+                approcciarsi al proprio familiare. Sono incontri dedicati a
+                tutti i tipi di caregivers (familiari, badanti, assistenti,
+                etc.)
+            </div>
+
             <div className="year">Anno 2025</div>
             <div className="mnm-events-carousel-wrapper">
                 <div className="mnm-events-carousel-slide">

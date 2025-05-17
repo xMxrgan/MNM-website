@@ -11,6 +11,11 @@ const Eventi = () => {
             <NavBar />
             <TodaysDate />
 
+            <div className="description">
+                🚨 QUESTA PAGINA E' ANCORA IN VIA DI SVILUPPO, VERRA' COMPLETATA
+                PROSSIMAMENTE 🚨
+            </div>
+
             <div className="year">Anno 2025</div>
             <div className="mnm-events-carousel-wrapper">
                 <div className="mnm-events-carousel-slide">
