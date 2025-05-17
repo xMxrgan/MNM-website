@@ -8,14 +8,14 @@ import Loc01_2020 from "../assets/MNMcourses/ciclo_serate_informative_2020.png";
 import Loc02_2020 from "../assets/MNMcourses/gestire_anziano_2020.png";
 import Loc03_2020 from "../assets/MNMcourses/gestire_anziano_2_2020.png";
 import Loc01_2021 from "../assets/MNMcourses/aiuto_per_la_famiglia_2021.png";
-import Loc02_2021 from "../assets/MNMcourses/domiciliarità2.0_2021.png";
+import Loc02_2021 from "../assets/MNMcourses/domiciliarita2.0_2021.png";
 import Loc03_2021 from "../assets/MNMcourses/aiuto_per_la_famiglia_2021.png";
 import Loc04_2021 from "../assets/MNMcourses/mappa_per_capire_2021.png";
 import Loc05_2021 from "../assets/MNMcourses/tra_gioco_e_illusione_2021.png";
-import Loc01_2022 from "../assets/MNMcourses/domiciliarità2.0_2022.png";
+import Loc01_2022 from "../assets/MNMcourses/domiciliarita2.0_2022.png";
 import Loc01_2023 from "../assets/MNMcourses/difficile_arte_dell_aver_cura_2023.png";
 import Loc02_2023 from "../assets/MNMcourses/musicoterapia_per_il_caregiver_2023.png";
-import Loc03_2023 from "../assets/MNMcourses/domiciliarità2.0_2023.png";
+import Loc03_2023 from "../assets/MNMcourses/domiciliarita2.0_2023.png";
 import Loc01_2024 from "../assets/MNMcourses/corso_smartphone_maggio_2024.png";
 import Loc02_2024 from "../assets/MNMcourses/musicoterapia_benessere_caregiver_2024.png";
 import Loc03_2024 from "../assets/MNMcourses/corso_smartphone_ottobre_2024.png";
@@ -159,6 +159,5 @@ const Corsi = () => {
         </>
     );
 };
-
 
 export default Corsi;
