@@ -20,8 +20,8 @@ const Info = () => {
                 </div>
                 <div className="description">
                     Grazie ad un progetto regionale coordinato dall'ULSS, è
-                    attivo il centro dedicato a tutte le persone affette da
-                    demenza e sindrome di Alzheimer.
+                    attivo il centro dedicato a tutte le persone fragili, affette da
+                    demenza o decadimento cognitivo.
                     <br />
                     Volontari formati, affiancati da professionisti esperti,
                     conducono incontri, con una frequenza di tre incontri a
@@ -95,16 +95,27 @@ const Info = () => {
                                     title="Mappa Sede"
                                 ></iframe>
                             </div>
-                            <div className="address-details">
-                                <h3>Indirizzo</h3>
-                                <p>Via San Giovanni, 123</p>
-                                <p>37050 Concamarise, Verona</p>
-                                <p>Tel: +39 3442919781</p>
-                                <p>Tel: +39 3498928351</p>
-                                <p>
-                                    Email: manonellamanoassociazione@gmail.com
-                                </p>
-                            </div>
+                            <div className="address-container">
+    <div className="address-details">
+        <h3>Concamarise</h3>
+        <p>Via Piazza, Ex Chiesa Antica<br />37050, Concamarise VR</p>
+    </div>
+    <div className="address-details">
+        <h3>Bovolone</h3>
+        <p>Via Lino Turrini, Villa Panteo Zampieri<br />37051, Bovolone VR</p>
+    </div>
+    <div className="address-details">
+        <h3>Salizzole</h3>
+        <p>Piazza Castello<br />37056, Salizzole VR</p>
+    </div>
+    <div className="address-contacts">
+        <h3>Contatti</h3>
+        <p>Tel: +39 3442919781</p>
+        <p>Tel: +39 3498928351</p>
+        <p>Email: manonellamanoassociazione@gmail.com</p>
+        <p>PEC: *********</p>
+    </div>
+</div>
                         </div>
                     </div>
                 </section>

@@ -19,7 +19,9 @@ const Eventi = () => {
             <div className="year">Anno 2025</div>
             <div className="mnm-events-carousel-wrapper">
                 <div className="mnm-events-carousel-slide">
-                    <MNMeventsCarousel image={Loc01_2017} title="Aperitivi" />
+                    <MNMeventsCarousel image={Loc01_2017} title="Aperitivi"
+                    />
+
                 </div>
                 <div className="mnm-events-carousel-slide">
                     <MNMeventsCarousel image={Loc01_2017} title="Aperitivi" />

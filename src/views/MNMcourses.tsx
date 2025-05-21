@@ -41,6 +41,7 @@ const Corsi = () => {
                     <MNMeventsCarousel
                         image={Loc01_2025}
                         title="L'utilizzo dello smartphone"
+                        pdfUrl={Loc01_2025}
                     />
                 </div>
             </div>

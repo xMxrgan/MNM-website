@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./Style.css";
 
 import Home from "./views/MNMhome";
-import DailyCenter from "./views/DChome";
+// import DailyCenter from "./views/DChome";
 import Info from "./views/MNMinfo";
 import Activities from "./views/MNMactivities";
 import Events from "./views/MNMevents";
@@ -22,11 +22,11 @@ function Routing() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Attività" element={<Activities />} />
-                <Route path="/Centro-Diurno" element={<DailyCenter />} />
                 <Route path="/Corsi" element={<Courses />} />
                 <Route path="/Info" element={<Info />} />
                 <Route path="/Eventi" element={<Events />} />
                 {/*
+                <Route path="/Centro-Diurno" element={<DailyCenter />} />
                 <Route path="/CD-Contatti" element={<DCcontacts />} />
                 <Route path="/CD-Eventi" element={<DCevents />} />
                 <Route path="/CD-Info" element={<DCinfo />} />
@@ -34,11 +34,6 @@ function Routing() {
                     path="/CD-Professionisti"
                     element={<DCprofessionists />}
                 /> */}
-
-                <Route path="/CD-Contatti" element={<DailyCenter />} />
-                <Route path="/CD-Eventi" element={<DailyCenter />} />
-                <Route path="/CD-Info" element={<DailyCenter />} />
-                <Route path="/CD-Professionisti" element={<DailyCenter />} />
             </Routes>
 
             <Footer />
