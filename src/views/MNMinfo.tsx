@@ -76,8 +76,17 @@ const Info = () => {
                                         buttonName="Copia C.F."
                                     />
                                 </div>
+
                             </div>
+                            <div className="address-contacts">
+        <h3>Contatti</h3>
+        <p>Tel: +39 3442919781</p>
+        <p>Tel: +39 3498928351</p>
+        <p>Email: manonellamanoassociazione@gmail.com</p>
+        <p>PEC: associazionemano@pec.it</p>
+    </div>
                         </div>
+                            
                     </div>
 
                     {/*Google Maps */}
@@ -108,13 +117,7 @@ const Info = () => {
         <h3>Salizzole</h3>
         <p>Piazza Castello<br />37056, Salizzole VR</p>
     </div>
-    <div className="address-contacts">
-        <h3>Contatti</h3>
-        <p>Tel: +39 3442919781</p>
-        <p>Tel: +39 3498928351</p>
-        <p>Email: manonellamanoassociazione@gmail.com</p>
-        <p>PEC: *********</p>
-    </div>
+
 </div>
                         </div>
                     </div>
