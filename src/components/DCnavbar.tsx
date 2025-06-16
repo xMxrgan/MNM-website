@@ -31,7 +31,7 @@ const DCnavbar = () => {
                     </NavLink>
                 </div>
                 <a
-                    href=""
+                    href="urly.it/31b3bq"
                     className="DCnavSocial"
                     target="_blank"
                     rel="noopener noreferrer"

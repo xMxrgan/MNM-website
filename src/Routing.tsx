@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./Style.css";
 
 import Home from "./views/MNMhome";
-// import DailyCenter from "./views/DChome";
+import DailyCenter from "./views/DChome";
 import Info from "./views/MNMinfo";
 import Activities from "./views/MNMactivities";
 import Events from "./views/MNMevents";
@@ -25,8 +25,10 @@ function Routing() {
                 <Route path="/Corsi" element={<Courses />} />
                 <Route path="/Info" element={<Info />} />
                 <Route path="/Eventi" element={<Events />} />
-                {/*
+
                 <Route path="/Centro-Diurno" element={<DailyCenter />} />
+
+                {/*
                 <Route path="/CD-Contatti" element={<DCcontacts />} />
                 <Route path="/CD-Eventi" element={<DCevents />} />
                 <Route path="/CD-Info" element={<DCinfo />} />
