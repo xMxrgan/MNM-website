@@ -14,6 +14,7 @@ import Courses from "./views/MNMcourses";
 // import DCprofessionists from "./views/DCprofessionists";
 import Footer from "./components/footer";
 import NavBar from "./components/MNMnavbar";
+import PublicContributions from "./views/PublicContributions";
 
 function Routing() {
     return (
@@ -36,6 +37,8 @@ function Routing() {
                     path="/CD-Professionisti"
                     element={<DCprofessionists />}
                 /> */}
+
+                <Route path="/Contributi" element={<PublicContributions />} />
             </Routes>
 
             <Footer />

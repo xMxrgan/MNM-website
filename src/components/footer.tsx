@@ -13,7 +13,8 @@ const Footer = () => {
                 <Link to="/terms">Termini e condizioni</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/about">Chi Siamo</Link>
-                <Link to="/contact">Contatti</Link>
+                <Link to="/Contatti">Contatti</Link>
+                <Link to="/Contributi">Contributi pubblici</Link>
             </div>
         </footer>
     );

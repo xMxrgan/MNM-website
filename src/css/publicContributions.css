@@ -1,0 +1,17 @@
+.DCcontributions-container {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.DCcontributions-link {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.DCcontributions-link:hover {
+    text-decoration: underline;
+}
