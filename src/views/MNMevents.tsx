@@ -42,7 +42,6 @@ import Loc06_2024 from "../assets/MNMevents/IMG_4389.png";
 import Loc01_2025 from "../assets/MNMevents/IMG_4390.png";
 import Loc02_2025 from "../assets/MNMevents/IMG_4391.png";
 import Loc03_2025 from "../assets/MNMevents/IMG_4411.png";
-import Loc04_2025 from "../assets/MNMevents/IMG-20250611-WA0030.png";
 
 const Eventi = () => {
     return (
