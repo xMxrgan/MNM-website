@@ -54,12 +54,6 @@ const Eventi = () => {
             <div className="mnm-events-carousel-wrapper">
                 <div className="mnm-events-carousel-slide">
                     <MNMeventsCarousel
-                        image={Loc04_2025}
-                        title="Il tempo cammina i suoi passi"
-                    />
-                </div>
-                <div className="mnm-events-carousel-slide">
-                    <MNMeventsCarousel
                         image={Loc03_2025}
                         title="Centenario della scuola d'infanzia di Concamarise"
                     />
