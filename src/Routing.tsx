@@ -17,19 +17,19 @@ import NavBar from "./components/MNMnavbar";
 import PublicContributions from "./views/PublicContributions";
 
 function Routing() {
-    return (
-        <BrowserRouter>
-            <NavBar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Attività" element={<Activities />} />
-                <Route path="/Corsi" element={<Courses />} />
-                <Route path="/Info" element={<Info />} />
-                <Route path="/Eventi" element={<Events />} />
+  return (
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Attività" element={<Activities />} />
+        <Route path="/Corsi" element={<Courses />} />
+        <Route path="/Info" element={<Info />} />
+        <Route path="/Eventi" element={<Events />} />
 
-                <Route path="/Centro-Diurno" element={<DailyCenter />} />
+        <Route path="/Centro-Diurno" element={<DailyCenter />} />
 
-                {/*
+        {/*
                 <Route path="/CD-Contatti" element={<DCcontacts />} />
                 <Route path="/CD-Eventi" element={<DCevents />} />
                 <Route path="/CD-Info" element={<DCinfo />} />
@@ -38,12 +38,12 @@ function Routing() {
                     element={<DCprofessionists />}
                 /> */}
 
-                <Route path="/Contributi" element={<PublicContributions />} />
-            </Routes>
+        <Route path="/Contributi" element={<PublicContributions />} />
+      </Routes>
 
-            <Footer />
-        </BrowserRouter>
-    );
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
 export default Routing;

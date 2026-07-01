@@ -1,18 +1,26 @@
 import year2024 from "../assets/Contributions/ContributiMNM2024.jpg";
+import year2025 from "../assets/Contributions/ContributiMNM2025.pdf";
 import "../Style.css";
 
 const PublicContributions = () => {
-    return (
-        <div className="DCcontributions-container">
-            <a
-                href={year2024}
-                rel="noopener noreferrer"
-                className="DCcontributions-link"
-            >
-                Modulo contributi 2024
-            </a>
-        </div>
-    );
+  return (
+    <div className="DCcontributions-container">
+      <a
+        href={year2024}
+        rel="noopener noreferrer"
+        className="DCcontributions-link"
+      >
+        Modulo contributi 2024
+      </a>
+      <a
+        href={year2025}
+        rel="noopener noreferrer"
+        className="DCcontributions-link"
+      >
+        Modulo contributi 2025
+      </a>
+    </div>
+  );
 };
 
 export default PublicContributions;
